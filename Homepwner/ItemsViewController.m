@@ -125,9 +125,27 @@
     }
 }
 
+- (BOOL)tableView:(UITableView *)tableView canMoveRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    BNRItemStore *ps = [BNRItemStore sharedStore];
+    NSArray *p = [ps allItems];
+    if ([indexPath row] == [p count])
+    {
+        return NO;
+    } else {
+        return YES;
+    }
+}
+
 - (void)tableView:(UITableView *)tableView moveRowAtIndexPath:(NSIndexPath *)sourceIndexPath toIndexPath:(NSIndexPath *)destinationIndexPath
 {
-    [[BNRItemStore sharedStore] moveItemIndex:[sourceIndexPath row] toIndex:[destinationIndexPath row]];
+    BNRItemStore *ps = [BNRItemStore sharedStore];
+    NSArray *p = [ps allItems];
+    
+    if ([destinationIndexPath row] < [p count]) {
+        [ps moveItemIndex:[sourceIndexPath row] toIndex:[destinationIndexPath row]];    
+    }
+    
 }
 
 - (NSString *)tableView:(UITableView *)tableView titleForDeleteConfirmationButtonForRowAtIndexPath:(NSIndexPath *)indexPath
