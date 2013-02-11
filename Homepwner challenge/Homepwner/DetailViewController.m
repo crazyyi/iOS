@@ -8,6 +8,7 @@
 
 #import "DetailViewController.h"
 #import "BNRItem.h"
+#import "CreationDateViewController.h"
 
 @interface DetailViewController ()
 
@@ -59,5 +60,29 @@
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
 {
     [valueField resignFirstResponder];
+}
+
+- (IBAction)changeDate:(id)sender {
+    CreationDateViewController *cdViewController = [[CreationDateViewController alloc] init];
+    
+    [cdViewController setItem:item];
+    [[self navigationController] pushViewController:cdViewController animated:YES];
+}
+
+- (IBAction)takePicture:(id)sender {
+    UIImagePickerController *imagePicker = [[UIImagePickerController alloc] init];
+    
+    // If our device has a camera, we want to take a picture, otherwise, we just pick from photo library
+    if ([UIImagePickerController isSourceTypeAvailable:UIImagePickerControllerSourceTypeCamera])
+    {
+        [imagePicker setSourceType:UIImagePickerControllerSourceTypeCamera];
+        
+    } else {
+        [imagePicker setSourceType:UIImagePickerControllerSourceTypePhotoLibrary];
+    }
+    
+    [imagePicker setDelegate:self];
+    
+    [self presentViewController:imagePicker animated:YES completion:nil];
 }
 @end
