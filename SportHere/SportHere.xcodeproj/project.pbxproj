@@ -1,0 +1,423 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A326354F175FF116000CEB27 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A326354E175FF116000CEB27 /* UIKit.framework */; };
+		A3263551175FF116000CEB27 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3263550175FF116000CEB27 /* Foundation.framework */; };
+		A3263553175FF116000CEB27 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3263552175FF116000CEB27 /* CoreGraphics.framework */; };
+		A3263559175FF116000CEB27 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A3263557175FF116000CEB27 /* InfoPlist.strings */; };
+		A326355B175FF116000CEB27 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A326355A175FF116000CEB27 /* main.m */; };
+		A326355F175FF116000CEB27 /* SHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A326355E175FF116000CEB27 /* SHAppDelegate.m */; };
+		A3263561175FF116000CEB27 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = A3263560175FF116000CEB27 /* Default.png */; };
+		A3263563175FF116000CEB27 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A3263562175FF116000CEB27 /* Default@2x.png */; };
+		A3263565175FF116000CEB27 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A3263564175FF116000CEB27 /* Default-568h@2x.png */; };
+		A326357117614CED000CEB27 /* SHLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A326356F17614CED000CEB27 /* SHLoginViewController.m */; };
+		A326357217614CED000CEB27 /* SHLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A326357017614CED000CEB27 /* SHLoginViewController.xib */; };
+		A3263576176153D3000CEB27 /* SHMainScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3263574176153D3000CEB27 /* SHMainScreenViewController.m */; };
+		A3263577176153D3000CEB27 /* SHMainScreenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3263575176153D3000CEB27 /* SHMainScreenViewController.xib */; };
+		A326357B17615402000CEB27 /* SHFriendsListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A326357917615401000CEB27 /* SHFriendsListViewController.m */; };
+		A326357C17615402000CEB27 /* SHFriendsListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A326357A17615402000CEB27 /* SHFriendsListViewController.xib */; };
+		A326358017615413000CEB27 /* SHGroupChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A326357E17615412000CEB27 /* SHGroupChatViewController.m */; };
+		A326358117615413000CEB27 /* SHGroupChatViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A326357F17615412000CEB27 /* SHGroupChatViewController.xib */; };
+		A326358517615428000CEB27 /* SHRegisterAccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A326358317615428000CEB27 /* SHRegisterAccountViewController.m */; };
+		A326358617615428000CEB27 /* SHRegisterAccountViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A326358417615428000CEB27 /* SHRegisterAccountViewController.xib */; };
+		A32635AA1761BE94000CEB27 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = A32635A01761BE94000CEB27 /* FMDatabase.m */; };
+		A32635AB1761BE94000CEB27 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A32635A21761BE94000CEB27 /* FMDatabaseAdditions.m */; };
+		A32635AC1761BE94000CEB27 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = A32635A41761BE94000CEB27 /* FMDatabasePool.m */; };
+		A32635AD1761BE94000CEB27 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = A32635A61761BE94000CEB27 /* FMDatabaseQueue.m */; };
+		A32635AF1761BE94000CEB27 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = A32635A91761BE94000CEB27 /* FMResultSet.m */; };
+		A32635B11761C01E000CEB27 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A32635B01761C01E000CEB27 /* libsqlite3.0.dylib */; };
+		A32635B61762DF10000CEB27 /* SHFMDBDataAccess.m in Sources */ = {isa = PBXBuildFile; fileRef = A32635B51762DF10000CEB27 /* SHFMDBDataAccess.m */; };
+		A32635B91762E60C000CEB27 /* SHUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = A32635B81762E60C000CEB27 /* SHUtilities.m */; };
+		A32635BD1762F993000CEB27 /* SHUser.m in Sources */ = {isa = PBXBuildFile; fileRef = A32635BC1762F993000CEB27 /* SHUser.m */; };
+		A32635C417631215000CEB27 /* SHSport.m in Sources */ = {isa = PBXBuildFile; fileRef = A32635C317631215000CEB27 /* SHSport.m */; };
+		A32635D11766C74D000CEB27 /* sporthere.db in Resources */ = {isa = PBXBuildFile; fileRef = A32635D01766C74D000CEB27 /* sporthere.db */; };
+		A32635D41766D87C000CEB27 /* SHGeoPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = A32635D31766D87C000CEB27 /* SHGeoPoint.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A326354B175FF116000CEB27 /* SportHere.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SportHere.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A326354E175FF116000CEB27 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A3263550175FF116000CEB27 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A3263552175FF116000CEB27 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A3263556175FF116000CEB27 /* SportHere-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SportHere-Info.plist"; sourceTree = "<group>"; };
+		A3263558175FF116000CEB27 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A326355A175FF116000CEB27 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A326355C175FF116000CEB27 /* SportHere-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SportHere-Prefix.pch"; sourceTree = "<group>"; };
+		A326355D175FF116000CEB27 /* SHAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHAppDelegate.h; sourceTree = "<group>"; };
+		A326355E175FF116000CEB27 /* SHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHAppDelegate.m; sourceTree = "<group>"; };
+		A3263560175FF116000CEB27 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		A3263562175FF116000CEB27 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		A3263564175FF116000CEB27 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		A326356E17614CED000CEB27 /* SHLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHLoginViewController.h; sourceTree = "<group>"; };
+		A326356F17614CED000CEB27 /* SHLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHLoginViewController.m; sourceTree = "<group>"; };
+		A326357017614CED000CEB27 /* SHLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SHLoginViewController.xib; sourceTree = "<group>"; };
+		A3263573176153D3000CEB27 /* SHMainScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHMainScreenViewController.h; sourceTree = "<group>"; };
+		A3263574176153D3000CEB27 /* SHMainScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHMainScreenViewController.m; sourceTree = "<group>"; };
+		A3263575176153D3000CEB27 /* SHMainScreenViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SHMainScreenViewController.xib; sourceTree = "<group>"; };
+		A326357817615401000CEB27 /* SHFriendsListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHFriendsListViewController.h; sourceTree = "<group>"; };
+		A326357917615401000CEB27 /* SHFriendsListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHFriendsListViewController.m; sourceTree = "<group>"; };
+		A326357A17615402000CEB27 /* SHFriendsListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SHFriendsListViewController.xib; sourceTree = "<group>"; };
+		A326357D17615412000CEB27 /* SHGroupChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHGroupChatViewController.h; sourceTree = "<group>"; };
+		A326357E17615412000CEB27 /* SHGroupChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHGroupChatViewController.m; sourceTree = "<group>"; };
+		A326357F17615412000CEB27 /* SHGroupChatViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SHGroupChatViewController.xib; sourceTree = "<group>"; };
+		A326358217615427000CEB27 /* SHRegisterAccountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHRegisterAccountViewController.h; sourceTree = "<group>"; };
+		A326358317615428000CEB27 /* SHRegisterAccountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHRegisterAccountViewController.m; sourceTree = "<group>"; };
+		A326358417615428000CEB27 /* SHRegisterAccountViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SHRegisterAccountViewController.xib; sourceTree = "<group>"; };
+		A326359F1761BE94000CEB27 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		A32635A01761BE94000CEB27 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		A32635A11761BE94000CEB27 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		A32635A21761BE94000CEB27 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		A32635A31761BE94000CEB27 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		A32635A41761BE94000CEB27 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		A32635A51761BE94000CEB27 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		A32635A61761BE94000CEB27 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		A32635A81761BE94000CEB27 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		A32635A91761BE94000CEB27 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		A32635B01761C01E000CEB27 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		A32635B41762DF10000CEB27 /* SHFMDBDataAccess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHFMDBDataAccess.h; sourceTree = "<group>"; };
+		A32635B51762DF10000CEB27 /* SHFMDBDataAccess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHFMDBDataAccess.m; sourceTree = "<group>"; };
+		A32635B71762E60B000CEB27 /* SHUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHUtilities.h; sourceTree = "<group>"; };
+		A32635B81762E60C000CEB27 /* SHUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHUtilities.m; sourceTree = "<group>"; };
+		A32635BB1762F993000CEB27 /* SHUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHUser.h; sourceTree = "<group>"; };
+		A32635BC1762F993000CEB27 /* SHUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHUser.m; sourceTree = "<group>"; };
+		A32635C217631215000CEB27 /* SHSport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHSport.h; sourceTree = "<group>"; };
+		A32635C317631215000CEB27 /* SHSport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHSport.m; sourceTree = "<group>"; };
+		A32635D01766C74D000CEB27 /* sporthere.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = sporthere.db; sourceTree = "<group>"; };
+		A32635D21766D87B000CEB27 /* SHGeoPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHGeoPoint.h; sourceTree = "<group>"; };
+		A32635D31766D87C000CEB27 /* SHGeoPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHGeoPoint.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A3263548175FF116000CEB27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A32635B11761C01E000CEB27 /* libsqlite3.0.dylib in Frameworks */,
+				A326354F175FF116000CEB27 /* UIKit.framework in Frameworks */,
+				A3263551175FF116000CEB27 /* Foundation.framework in Frameworks */,
+				A3263553175FF116000CEB27 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A3263542175FF116000CEB27 = {
+			isa = PBXGroup;
+			children = (
+				A32635B01761C01E000CEB27 /* libsqlite3.0.dylib */,
+				A3263554175FF116000CEB27 /* SportHere */,
+				A326354D175FF116000CEB27 /* Frameworks */,
+				A326354C175FF116000CEB27 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A326354C175FF116000CEB27 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A326354B175FF116000CEB27 /* SportHere.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A326354D175FF116000CEB27 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A326354E175FF116000CEB27 /* UIKit.framework */,
+				A3263550175FF116000CEB27 /* Foundation.framework */,
+				A3263552175FF116000CEB27 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A3263554175FF116000CEB27 /* SportHere */ = {
+			isa = PBXGroup;
+			children = (
+				A32635BA1762F97C000CEB27 /* tables */,
+				A326359E1761BE94000CEB27 /* fmdb */,
+				A326355D175FF116000CEB27 /* SHAppDelegate.h */,
+				A326355E175FF116000CEB27 /* SHAppDelegate.m */,
+				A32635B41762DF10000CEB27 /* SHFMDBDataAccess.h */,
+				A32635B51762DF10000CEB27 /* SHFMDBDataAccess.m */,
+				A326356E17614CED000CEB27 /* SHLoginViewController.h */,
+				A326356F17614CED000CEB27 /* SHLoginViewController.m */,
+				A326357017614CED000CEB27 /* SHLoginViewController.xib */,
+				A3263573176153D3000CEB27 /* SHMainScreenViewController.h */,
+				A3263574176153D3000CEB27 /* SHMainScreenViewController.m */,
+				A3263575176153D3000CEB27 /* SHMainScreenViewController.xib */,
+				A326357817615401000CEB27 /* SHFriendsListViewController.h */,
+				A326357917615401000CEB27 /* SHFriendsListViewController.m */,
+				A326357A17615402000CEB27 /* SHFriendsListViewController.xib */,
+				A326357D17615412000CEB27 /* SHGroupChatViewController.h */,
+				A326357E17615412000CEB27 /* SHGroupChatViewController.m */,
+				A326357F17615412000CEB27 /* SHGroupChatViewController.xib */,
+				A326358217615427000CEB27 /* SHRegisterAccountViewController.h */,
+				A326358317615428000CEB27 /* SHRegisterAccountViewController.m */,
+				A326358417615428000CEB27 /* SHRegisterAccountViewController.xib */,
+				A32635B71762E60B000CEB27 /* SHUtilities.h */,
+				A32635B81762E60C000CEB27 /* SHUtilities.m */,
+				A32635D21766D87B000CEB27 /* SHGeoPoint.h */,
+				A32635D31766D87C000CEB27 /* SHGeoPoint.m */,
+				A3263555175FF116000CEB27 /* Supporting Files */,
+			);
+			path = SportHere;
+			sourceTree = "<group>";
+		};
+		A3263555175FF116000CEB27 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A32635D01766C74D000CEB27 /* sporthere.db */,
+				A3263556175FF116000CEB27 /* SportHere-Info.plist */,
+				A3263557175FF116000CEB27 /* InfoPlist.strings */,
+				A326355A175FF116000CEB27 /* main.m */,
+				A326355C175FF116000CEB27 /* SportHere-Prefix.pch */,
+				A3263560175FF116000CEB27 /* Default.png */,
+				A3263562175FF116000CEB27 /* Default@2x.png */,
+				A3263564175FF116000CEB27 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A326359E1761BE94000CEB27 /* fmdb */ = {
+			isa = PBXGroup;
+			children = (
+				A326359F1761BE94000CEB27 /* FMDatabase.h */,
+				A32635A01761BE94000CEB27 /* FMDatabase.m */,
+				A32635A11761BE94000CEB27 /* FMDatabaseAdditions.h */,
+				A32635A21761BE94000CEB27 /* FMDatabaseAdditions.m */,
+				A32635A31761BE94000CEB27 /* FMDatabasePool.h */,
+				A32635A41761BE94000CEB27 /* FMDatabasePool.m */,
+				A32635A51761BE94000CEB27 /* FMDatabaseQueue.h */,
+				A32635A61761BE94000CEB27 /* FMDatabaseQueue.m */,
+				A32635A81761BE94000CEB27 /* FMResultSet.h */,
+				A32635A91761BE94000CEB27 /* FMResultSet.m */,
+			);
+			path = fmdb;
+			sourceTree = "<group>";
+		};
+		A32635BA1762F97C000CEB27 /* tables */ = {
+			isa = PBXGroup;
+			children = (
+				A32635BB1762F993000CEB27 /* SHUser.h */,
+				A32635BC1762F993000CEB27 /* SHUser.m */,
+				A32635C217631215000CEB27 /* SHSport.h */,
+				A32635C317631215000CEB27 /* SHSport.m */,
+			);
+			name = tables;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A326354A175FF116000CEB27 /* SportHere */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3263568175FF116000CEB27 /* Build configuration list for PBXNativeTarget "SportHere" */;
+			buildPhases = (
+				A3263547175FF116000CEB27 /* Sources */,
+				A3263548175FF116000CEB27 /* Frameworks */,
+				A3263549175FF116000CEB27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SportHere;
+			productName = SportHere;
+			productReference = A326354B175FF116000CEB27 /* SportHere.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A3263543175FF116000CEB27 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SH;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = AFun;
+			};
+			buildConfigurationList = A3263546175FF116000CEB27 /* Build configuration list for PBXProject "SportHere" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A3263542175FF116000CEB27;
+			productRefGroup = A326354C175FF116000CEB27 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A326354A175FF116000CEB27 /* SportHere */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A3263549175FF116000CEB27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3263559175FF116000CEB27 /* InfoPlist.strings in Resources */,
+				A3263561175FF116000CEB27 /* Default.png in Resources */,
+				A3263563175FF116000CEB27 /* Default@2x.png in Resources */,
+				A3263565175FF116000CEB27 /* Default-568h@2x.png in Resources */,
+				A326357217614CED000CEB27 /* SHLoginViewController.xib in Resources */,
+				A3263577176153D3000CEB27 /* SHMainScreenViewController.xib in Resources */,
+				A326357C17615402000CEB27 /* SHFriendsListViewController.xib in Resources */,
+				A326358117615413000CEB27 /* SHGroupChatViewController.xib in Resources */,
+				A326358617615428000CEB27 /* SHRegisterAccountViewController.xib in Resources */,
+				A32635D11766C74D000CEB27 /* sporthere.db in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A3263547175FF116000CEB27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A326355B175FF116000CEB27 /* main.m in Sources */,
+				A326355F175FF116000CEB27 /* SHAppDelegate.m in Sources */,
+				A326357117614CED000CEB27 /* SHLoginViewController.m in Sources */,
+				A3263576176153D3000CEB27 /* SHMainScreenViewController.m in Sources */,
+				A326357B17615402000CEB27 /* SHFriendsListViewController.m in Sources */,
+				A326358017615413000CEB27 /* SHGroupChatViewController.m in Sources */,
+				A326358517615428000CEB27 /* SHRegisterAccountViewController.m in Sources */,
+				A32635AA1761BE94000CEB27 /* FMDatabase.m in Sources */,
+				A32635AB1761BE94000CEB27 /* FMDatabaseAdditions.m in Sources */,
+				A32635AC1761BE94000CEB27 /* FMDatabasePool.m in Sources */,
+				A32635AD1761BE94000CEB27 /* FMDatabaseQueue.m in Sources */,
+				A32635AF1761BE94000CEB27 /* FMResultSet.m in Sources */,
+				A32635B61762DF10000CEB27 /* SHFMDBDataAccess.m in Sources */,
+				A32635B91762E60C000CEB27 /* SHUtilities.m in Sources */,
+				A32635BD1762F993000CEB27 /* SHUser.m in Sources */,
+				A32635C417631215000CEB27 /* SHSport.m in Sources */,
+				A32635D41766D87C000CEB27 /* SHGeoPoint.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A3263557175FF116000CEB27 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3263558175FF116000CEB27 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A3263566175FF116000CEB27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A3263567175FF116000CEB27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A3263569175FF116000CEB27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SportHere/SportHere-Prefix.pch";
+				INFOPLIST_FILE = "SportHere/SportHere-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A326356A175FF116000CEB27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SportHere/SportHere-Prefix.pch";
+				INFOPLIST_FILE = "SportHere/SportHere-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A3263546175FF116000CEB27 /* Build configuration list for PBXProject "SportHere" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3263566175FF116000CEB27 /* Debug */,
+				A3263567175FF116000CEB27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3263568175FF116000CEB27 /* Build configuration list for PBXNativeTarget "SportHere" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3263569175FF116000CEB27 /* Debug */,
+				A326356A175FF116000CEB27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A3263543175FF116000CEB27 /* Project object */;
+}
