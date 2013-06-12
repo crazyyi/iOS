@@ -25,13 +25,14 @@
 
 - (void)viewWillAppear:(BOOL)animated
 {
-    [datePicker setDate:[self.item dateCreated]];
+    NSDate *date = [NSDate dateWithTimeIntervalSinceReferenceDate:[self.item dateCreated]];
+    [datePicker setDate:date];
 }
 
 - (void)viewWillDisappear:(BOOL)animated
 {
     [[self view] endEditing:YES];
     
-    item.dateCreated = [datePicker date];
+    item.dateCreated = [[datePicker date] timeIntervalSinceReferenceDate];
 }
 @end

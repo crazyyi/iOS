@@ -8,10 +8,12 @@
 
 #import <UIKit/UIKit.h>
 #import "DetailViewController.h"
+#import "HomepwnerItemCell.h"
 
 @interface ItemsViewController : UITableViewController
+<UIPopoverControllerDelegate>
 {
-
+    UIPopoverController *imagePopover;
 }
 
 - (IBAction)addNewItem:(id)sender;
